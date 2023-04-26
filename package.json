@@ -1,0 +1,22 @@
+{
+    "name": "hash-scaling",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "start": "node ./lib/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chokidar": "^3.5.3",
+        "cross-process-lock": "^2.1.0",
+        "typescript": "^5.0.4"
+    },
+    "devDependencies": {
+        "@types/node": "^18.16.0",
+        "typed-emitter": "^2.1.0"
+    }
+}
